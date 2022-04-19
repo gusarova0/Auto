@@ -7,10 +7,7 @@
 
 import UIKit
 
-class HelpViewController: UIViewController {
-    
-    // MARK: - Properties
-    
+final class HelpViewController: UIViewController {
     
     // MARK: - Life cycle
 

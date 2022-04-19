@@ -7,10 +7,7 @@
 
 import UIKit
 
-class MainViewController: UIViewController {
-
-    // MARK: - Properties
-    
+final class MainViewController: UIViewController {
     
     // MARK: - Life cycle
     

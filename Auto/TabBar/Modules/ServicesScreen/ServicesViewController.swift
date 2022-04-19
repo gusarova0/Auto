@@ -7,10 +7,7 @@
 
 import UIKit
 
-class ServicesViewController: UIViewController {
-
-    // MARK: - Properties
-    
+final class ServicesViewController: UIViewController {
 
     // MARK: - Life cycle
     

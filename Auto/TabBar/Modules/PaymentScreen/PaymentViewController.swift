@@ -7,10 +7,7 @@
 
 import UIKit
 
-class PaymentViewController: UIViewController {
-
-    // MARK: - Properties
-    
+final class PaymentViewController: UIViewController {
     
     // MARK: - Life cycle
     

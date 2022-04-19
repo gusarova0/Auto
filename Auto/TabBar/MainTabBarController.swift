@@ -7,7 +7,7 @@
 
 import UIKit
 
-class MainTabBarController: UITabBarController {
+final class MainTabBarController: UITabBarController {
     
     // MARK: - Life cycle
     
@@ -21,7 +21,7 @@ class MainTabBarController: UITabBarController {
     }
     
     
-    // MARK: - Methods
+    // MARK: - Private methods
     
     private func setupTabBar() {
         
