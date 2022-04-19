@@ -26,24 +26,24 @@ class MainTabBarController: UITabBarController {
     private func setupTabBar() {
         
         let mainViewController = createNavController(vc: MainViewController(),
-                                                     title: "Главный",
-                                                     icon: "",
-                                                     selectedIcon: "")
+                                                        title: "Главный",
+                                                        icon: "ic_home",
+                                                        selectedIcon: "ic_home_un")
         
         let paymentViewController = createNavController(vc: PaymentViewController(),
                                                         title: "Оплата",
-                                                        icon: "",
-                                                        selectedIcon: "")
+                                                        icon: "ic_payment",
+                                                        selectedIcon: "ic_payment_un")
         
         let servicesViewController = createNavController(vc: ServicesViewController(),
-                                                         title: "Услуги",
-                                                         icon: "",
-                                                         selectedIcon: "")
+                                                        title: "Услуги",
+                                                        icon: "ic_services",
+                                                        selectedIcon: "ic_services_un")
         
         let helpViewController = createNavController(vc: HelpViewController(),
-                                                     title: "Помощь",
-                                                     icon: "",
-                                                     selectedIcon: "")
+                                                        title: "Помощь",
+                                                        icon: "ic_help",
+                                                        selectedIcon: "ic_help_un")
         
         viewControllers = [mainViewController, paymentViewController, servicesViewController, helpViewController]
     }
